@@ -1,0 +1,73 @@
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 2px 2px 2px  rgb(0, 0, 0);
+    }
+    
+    
+    h3{
+      color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 2px 2px 2px  rgb(7, 7, 7);
+    }
+    
+    .buzo {
+      width: 49.8%;
+    
+    }
+    
+    .buzos {
+    margin: 0 auto;
+    }
+    
+    
+    .flexfotos {
+      display: flex;flex-wrap: wrap;
+      justify-content:space-evenly;
+      justify-items: center;
+    }
+    
+    .buzosdrew {
+      display: flex; flex-wrap: wrap;
+      justify-content: space-evenly;
+      justify-items: center;
+    
+    }
+    
+    
+    div.galeria {
+    
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+    
+    }
+    
+    
+    div.galeria img {
+      width: 100%;
+      height: auto;
+      
+    }
+    
+    
+    div.galeria:hover {
+      border: 1px solid rgb(0, 0, 0);
+      transform: rotate(3deg);
+    }
+    
+    
+    div.pie {
+      text-align: center;
+      background-color: rgb(250, 250, 250);
+    }
+    
+    .fondo {
+
+      background-color: rgb(220, 192, 238);
+    }
