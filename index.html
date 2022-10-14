@@ -12,12 +12,22 @@
 
 <body class="fondopantalla">
 
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">YOR.</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">YOR.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/formulario.html"> Contacto </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     </nav>
     <header>
         <div class="container">
@@ -25,91 +35,15 @@
             <br>
         </div>
     </header>
+   <!-- START SECTION STORE -->
    
-    <section class="store">
-        <div class="container">
-            <div class="items">
-                <div class="row">
+   <section>
+    <article id="tarjetas"></article>
+   </section>
 
-                    <div class="col-12 col-md-6">
-                        <div class="item shadow mb-4">
-                            <h3 class="item-title">Jogger cargo blanco</h3>
-                            <img class="item-image" src="https://www.tuareq.com/wp-content/uploads/2022/05/DSC02019-1-scaled-1.webp">
+   <!-- END SECTION STORE -->
 
-                            <div class="item-details">
-                                <h4 class="item-price">$ 9500</h4>
-                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="item shadow mb-4">
-                            <h3 class="item-title">Jogger cargo chocolate</h3>
-
-                            <img class="item-image" src="https://www.tuareq.com/wp-content/uploads/2022/05/DSC09435-1-scaled-e1652559105782.webp">
-
-                            <div class="item-details">
-                                <h4 class="item-price">$ 9500</h4>
-                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="item shadow mb-4">
-                            <h3 class="item-title">Remera oversize blanco</h3>
-
-                            <img class="item-image" src="https://www.tuareq.com/wp-content/uploads/2022/07/DSC004301-2-1.webp">
-
-                            <div class="item-details">
-                                <h4 class="item-price">$ 5000</h4>
-                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="item shadow mb-4">
-                            <h3 class="item-title">Remera oversize negra</h3>
-
-                            <img class="item-image" src="https://www.tuareq.com/wp-content/uploads/2022/07/DSC01051-2-1-e1659115118341.webp">
-
-                            <div class="item-details">
-                                <h4 class="item-price">$ 5000</h4>
-                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="item shadow mb-4">
-                            <h3 class="item-title">Buzo oversize chocolate</h3>
-
-                            <img class="item-image" src="https://www.tuareq.com/wp-content/uploads/2022/05/DSC07217-1-scaled-e1650179870924.webp">
-                            <div class="item-details">
-                                <h4 class="item-price">$ 11000</h4>
-                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="item shadow mb-4">
-                            <h3 class="item-title">Buzo oversize Gris</h3>
-
-                            <img class="item-image" src="https://www.tuareq.com/wp-content/uploads/2022/05/DSC05344-scaled-e1652585240415-1.webp">
-                            <div class="item-details">
-                                <h4 class="item-price">$ 11000</h4>
-                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-   
+    <!-- START SECTION SHOPPING CART -->
     <section class="shopping-cart">
         <div class="container">
             <h1 class="text-center">CARRITO</h1>
@@ -131,11 +65,12 @@
                     </div>
                 </div>
             </div>
-        
+         <!-- ? START SHOPPING CART ITEMS -->
             <div class="shopping-cart-items shoppingCartItemsContainer">
             </div>
-           
+            <!-- ? END SHOPPING CART ITEMS -->
 
+    <!-- START TOTAL -->
           
             <div class="row">
                 <div class="col-12">
@@ -168,24 +103,24 @@
                     </div>
                 </div>
             </div>
-            
+              <!-- END TOTAL -->
 
 
         </div>
 
     </section>
   
+    <!-- END SECTION SHOPPING CART -->
 
-
-    
+       <!-- START FOOTER -->
     <footer class="bg-light p-3 mt-5">
         <p class="text-center m-0 text-muted">Tienda de ropa</p>
     </footer>
-    
+      <!-- END FOOTER -->
 
 
 
-
+  <!-- SCRIPTS -->
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
